@@ -25,7 +25,7 @@ export default function NavBar() {
 
   return (
     <>
-      <Box bg={useColorModeValue('messenger.500')} px={4}>
+      <Box bg={'messenger.500'} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -51,7 +51,7 @@ export default function NavBar() {
                 color='white'
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('messenger.600'),
+                  bg: 'messenger.600',
                 }}
                 href={'/'}>
                 Menú
@@ -63,7 +63,7 @@ export default function NavBar() {
                 color='white'
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('messenger.600', 'gray.700'),
+                  bg: 'messenger.600',
                 }}
                 href={'/family'}>
                 Familia
@@ -75,7 +75,7 @@ export default function NavBar() {
                 color='white'
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('messenger.600'),
+                  bg: 'messenger.600',
                 }}
                 href={'/record'}>
                 Historial
@@ -115,7 +115,7 @@ export default function NavBar() {
                 rounded={'md'}
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('messenger.600'),
+                  bg: 'messenger.600',
                 }}
                 href={'/'}>
                 Home
@@ -126,7 +126,7 @@ export default function NavBar() {
                 rounded={'md'}
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('messenger.600'),
+                  bg: 'messenger.600',
                 }}
                 href={'/family'}>
                 Famila
@@ -137,7 +137,7 @@ export default function NavBar() {
                 rounded={'md'}
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('messenger.600'),
+                  bg: 'messenger.600',
                 }}
                 href={'/record'}>
                 Historial
